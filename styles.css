@@ -1,0 +1,100 @@
+/* === Global Styles === */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* === Dark Mode === */
+  .dark-mode {
+    background-color: #121212 !important;
+    color: #ffffff;
+  }
+  
+  .dark-mode .card {
+    background-color: #1f1f1f;
+    border-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode .form-control,
+  .dark-mode .form-check-label {
+    background-color: #2a2a2a;
+    color: #fff;
+    border-color: #444;
+  }
+  
+  .dark-mode input::placeholder {
+    color: #cccccc;
+  }
+  
+  .dark-mode .btn {
+    border-color: #555;
+  }
+  
+  /* === App Container === */
+  .app {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* === Task Card === */
+  .card {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* === Completed Task Style === */
+  .completed .card-title {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+  
+  /* === Priority Badge Colors === */
+  .badge-success {
+    background-color: #28a745 !important;
+  }
+  
+  .badge-warning {
+    background-color: #ffc107 !important;
+    color: #000 !important;
+  }
+  
+  .badge-danger {
+    background-color: #dc3545 !important;
+  }
+  
+  /* === Form Styling === */
+  form input,
+  form select {
+    margin-bottom: 10px;
+  }
+  
+  /* === Button Hover === */
+  .btn:hover {
+    opacity: 0.9;
+    transition: 0.2s ease-in-out;
+  }
+  
+  /* === Toggle Switch === */
+  .form-check-label {
+    font-weight: 500;
+  }
+  
+  /* === Responsive === */
+  @media (max-width: 576px) {
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .btn-group .btn {
+      margin-bottom: 5px;
+    }
+  }
+  body {
+    background-color: rgb(195, 255, 192) !important;
+  }
+  
